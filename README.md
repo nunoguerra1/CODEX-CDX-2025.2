@@ -1,7 +1,10 @@
 # Codex
 
 <br>
-![ecfe3bad-cf25-4935-bc8d-6a40957ea71c](https://github.com/user-attachments/assets/cc2b5de9-1de5-4879-b4ce-1c593dd83610)
+
+![ecfe3bad-cf25-4935-bc8d-6a40957ea71c](https://github.com/user-attachments/assets/b18ab77b-46c0-479d-9652-3458016d2065)
+
+
 ---
 b.	Nome da disciplina, ano, semestre<br>
 ---
