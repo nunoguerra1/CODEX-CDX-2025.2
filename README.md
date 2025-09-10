@@ -12,7 +12,7 @@ Desenvolvimento Ágil, 2025-2<br>
 |----------------|-----------|----------------------------------------|
 | Nuno Guerra    | 2706504   | [Nuno](https://github.com/nunoguerra1) |
 | João Pedro Dias Elero| 87654321  | [Maria](https://github.com/mariaoliveira) |
-| Luicas Nishimura| 87654321  | [Pedro](https://github.com/pedrosouza) |
+| Lucas Nishimura| 1352245  | [Lucas](https://github.com/nishimura-lucas) |
 | Paulo Cesar Leite| 87654321  | [Maria](https://github.com/mariaoliveira) |
 <br>
 
