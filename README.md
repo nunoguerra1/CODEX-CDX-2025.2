@@ -10,9 +10,9 @@ Desenvolvimento Ágil, 2025-2<br>
 ---
 | Nome           | RA        | GitHub                                 |
 |----------------|-----------|----------------------------------------|
-| Nuno Guerra    | 2706504   | [João](https://github.com/joaodasilva) |
-| Maria Oliveira | 87654321  | [Maria](https://github.com/mariaoliveira) |
-| Pedro Souza    | 11223344  | [Pedro](https://github.com/pedrosouza) |
+| Nuno Guerra    | 2706504   | [Nuno](https://github.com/nunoguerra1) |
+| João Pedro Dias| 87654321  | [Maria](https://github.com/mariaoliveira) |
+| Luicas Nishimura| 11223344  | [Pedro](https://github.com/pedrosouza) |
 <br>
 ---
 d.	Descrição do que é o projeto (objetivo, principais funcionalidades, público-alvo, etc)<br>
