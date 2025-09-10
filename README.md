@@ -15,7 +15,9 @@ Desenvolvimento Ágil, 2025-2<br>
 | Luicas Nishimura| 87654321  | [Pedro](https://github.com/pedrosouza) |
 | Paulo Cesar Leite| 87654321  | [Maria](https://github.com/mariaoliveira) |
 <br>
+
 ---
+
 d.	Descrição do que é o projeto (objetivo, principais funcionalidades, público-alvo, etc)<br>
 ---
 e.	Documentos que serão encontrados no repositório (criaremos links para cada documento como se fosse um sumário). Por enquanto, deixem sem link: <br>
