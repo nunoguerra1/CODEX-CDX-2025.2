@@ -8,7 +8,7 @@
 ---
 Desenvolvimento Ágil, 2025-2<br>
 ---
-c.	| Nome           | RA        | GitHub                                 |
+| Nome           | RA        | GitHub                                 |
 |----------------|-----------|----------------------------------------|
 | João da Silva  | 12345678  | [João](https://github.com/joaodasilva) |
 | Maria Oliveira | 87654321  | [Maria](https://github.com/mariaoliveira) |
