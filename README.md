@@ -10,7 +10,7 @@ Desenvolvimento Ágil, 2025-2<br>
 ---
 | Nome           | RA        | GitHub                                 |
 |----------------|-----------|----------------------------------------|
-| João da Silva  | 12345678  | [João](https://github.com/joaodasilva) |
+| Nuno Guerra    | 2706504   | [João](https://github.com/joaodasilva) |
 | Maria Oliveira | 87654321  | [Maria](https://github.com/mariaoliveira) |
 | Pedro Souza    | 11223344  | [Pedro](https://github.com/pedrosouza) |
 <br>
