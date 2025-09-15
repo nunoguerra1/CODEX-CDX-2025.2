@@ -34,7 +34,15 @@ O projeto **Biblio** consiste em uma plataforma online de gerenciamento de livro
 O sistema foi desenhado especificamente para os **estudantes da UTFPR**, que buscam uma maneira eficiente de gerenciar suas leituras e ter acesso rápido às informações do acervo da biblioteca.
 
 ---
-e.	Documentos que serão encontrados no repositório (criaremos links para cada documento como se fosse um sumário). Por enquanto, deixem sem link: <br>
+
+### Documentos do Projeto
+
+Nesta seção, você pode encontrar a documentação e os artefatos gerados para o projeto, organizados em pastas para fácil acesso.
+
+* [Protótipos](Prototipação)
+* [Requisitos de Sistema](Requisitos%20de%20Sistema)
+* [Requisitos de Usuário](Requisitos%20de%20Usu%C3%A1rio)
+  
 ---
 <ul>
   <li><a href="Requisitos de Usuário/RF.md">Requisitos Funcionais</a></li>
