@@ -18,7 +18,21 @@ Desenvolvimento Ágil, 2025-2<br>
 
 ---
 
-d.	Descrição do que é o projeto (objetivo, principais funcionalidades, público-alvo, etc)<br>
+## Descrição do Projeto
+
+O projeto **Biblio** consiste em uma plataforma online de gerenciamento de livros desenvolvida a princípio para os estudantes da **Universidade Tecnológica Federal do Paraná (UTFPR), mas com possível extensão para demais Universidades e Instituições de Ensino do nosso País**. O objetivo principal é otimizar a experiência de leitura e pesquisa dos alunos, fornecendo uma ferramenta intuitiva para organizar suas leituras e verificar a disponibilidade de livros na biblioteca do campus.
+
+### Principais Funcionalidades
+
+* **Organização Pessoal:** Os usuários podem registrar o progresso de suas leituras e controlar os livros que já leram e os que pretendem ler.
+* **Verificação de Acervo:** A plataforma permite consultar o acervo da biblioteca do UTFPR para verificar a disponibilidade de um livro em tempo real.
+* **Avaliações e Recomendações:** O sistema inclui funcionalidades para avaliar livros, ajudando a criar uma base de dados para futuras recomendações personalizadas a outros usuários.
+* **Pesquisa:** Integrado com a Google Books API, o sistema possibilita uma pesquisa detalhada de livros, com acesso a informações como dados principais e prévias de leitura.
+
+### Público-Alvo
+
+O sistema foi desenhado especificamente para os **estudantes da UTFPR**, que buscam uma maneira eficiente de gerenciar suas leituras e ter acesso rápido às informações do acervo da biblioteca.
+
 ---
 e.	Documentos que serão encontrados no repositório (criaremos links para cada documento como se fosse um sumário). Por enquanto, deixem sem link: <br>
 ---
