@@ -50,5 +50,5 @@ Nesta seção, você pode encontrar a documentação e os artefatos gerados para
 <ul>
   <li><a href="Requisitos de Usuário/RF.md">Requisitos Funcionais</a></li>
   <li><a href="Requisitos de Usuário/RNF.md">Requisitos Não Funcionais</a></li>
-  <li><a href="Requisitos de Usuário/HistoriasUsuarios.md">Histórias de Usuários</a></li>
+  <li><a href="Requisitos de Usuário/HistoriasUsuario.md">Histórias de Usuários</a></li>
 </ul>
