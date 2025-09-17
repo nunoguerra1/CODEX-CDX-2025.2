@@ -22,7 +22,7 @@ Desenvolvimento Ágil, 2025-2<br>
 
 O projeto **Biblio** consiste em uma plataforma online de gerenciamento de livros desenvolvida a princípio para os estudantes da **Universidade Tecnológica Federal do Paraná (UTFPR), mas com possível extensão para demais Universidades e Instituições de Ensino do nosso País**. O objetivo principal é otimizar a experiência de leitura e pesquisa dos alunos, fornecendo uma ferramenta intuitiva para organizar suas leituras e verificar a disponibilidade de livros na biblioteca do campus.
 
-### Principais Funcionalidades
+### Resumo das Principais Funcionalidades
 
 * **Organização Pessoal:** Os usuários podem registrar o progresso de suas leituras e controlar os livros que já leram e os que pretendem ler.
 * **Verificação de Acervo:** A plataforma permite consultar o acervo da biblioteca do UTFPR para verificar a disponibilidade de um livro em tempo real.
@@ -35,7 +35,7 @@ O sistema foi desenhado especificamente para os **estudantes da UTFPR**, que bus
 
 ---
 
-### Documentos do Projeto
+### Links para os Documentos do Projeto
 
 Nesta seção, você pode encontrar a documentação e os artefatos gerados para o projeto, organizados em pastas para fácil acesso.
 
@@ -46,6 +46,9 @@ Nesta seção, você pode encontrar a documentação e os artefatos gerados para
 ---
 
 ### Links para Requisitos Funcionais, Não Funcionais e Histórias de Usuários
+
+Documentação de Requisitos
+Esta seção é dedicada à documentação detalhada dos requisitos do projeto Biblio. Aqui, você encontrará os arquivos que descrevem o que o sistema deve fazer (Requisitos Funcionais), como ele deve se comportar (Requisitos Não Funcionais) e a perspectiva do usuário sobre as funcionalidades (Histórias de Usuário). Esses documentos são fundamentais para guiar o desenvolvimento e garantir que o produto final atenda às necessidades dos estudantes da UTFPR.
 
 <ul>
   <li><a href="Requisitos de Usuário/RF.md">Requisitos Funcionais</a></li>
