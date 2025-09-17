@@ -1,6 +1,7 @@
 # Protótipos de Tela - Projeto Sistema Biblio
 
 A seguir apresentamos as imagens das principais telas e interfaces do nosso projeto, que foram criadas com Figma com alta fidelização.
+Clique no Link para visualização do protótipo de cada tela.
 
 ## Interfaces do Usuário Comum
 
