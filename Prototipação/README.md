@@ -1,4 +1,9 @@
-# Protótipos de Tela - Projeto Sistema Biblio
+# Protótipos de Tela de média fidelidade - Link para visualização na ferramenta Figma
+Nesta seção, apresentamos os protótipos de média fidelidade das telas do sistema Biblio, criados na ferramenta Figma. Estes protótipos são uma representação visual interativa do projeto, servindo como base para a validação de requisitos e para a comunicação com o Product Oener e demais partes interessadas antes do início do desenvolvimento. Você pode explorar o fluxo de navegação e as interfaces do sistema através do link abaixo:
+
+https://www.figma.com/proto/pAqIu1YA6PVhQ42tVARiuq/codex?node-id=67-153&p=f&t=85sDzFnOxFI4WXHJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+# Protótipos de Tela de alta fidelidade - Projeto Sistema Biblio
 
 A seguir apresentamos as imagens das principais telas e interfaces do nosso projeto, que foram criadas com Figma com alta fidelização.
 Clique no Link para visualização do protótipo de cada tela.
