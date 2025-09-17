@@ -1,6 +1,3 @@
----
-
-
 # Requisitos de Usuário - Projeto Sistema Biblio
 
 Os requisitos de usuário foram levantados por meio de um formulário aplicado a estudantes da UTFPR.  As seguintes funcionalidades são consideradas importantes pelo público-alvo:
