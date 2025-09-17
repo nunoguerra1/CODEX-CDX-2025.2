@@ -47,7 +47,6 @@ Nesta seção, você pode encontrar a documentação e os artefatos gerados para
 
 ### Links para Requisitos Funcionais, Não Funcionais e Histórias de Usuários
 
-Documentação de Requisitos
 Esta seção é dedicada à documentação detalhada dos requisitos do projeto Biblio. Aqui, você encontrará os arquivos que descrevem o que o sistema deve fazer (Requisitos Funcionais), como ele deve se comportar (Requisitos Não Funcionais) e a perspectiva do usuário sobre as funcionalidades (Histórias de Usuário). Esses documentos são fundamentais para guiar o desenvolvimento e garantir que o produto final atenda às necessidades dos estudantes da UTFPR.
 
 <ul>
