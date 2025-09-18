@@ -11,8 +11,8 @@ A Tabela a seguir contém:
 * **RF/RNF Relacionado** - Liga a história de usuário aos requisitos funcionais e não funcionais documentadas na pasta Requisitos do Usuário do repositório.
 
 * **Story Points** - É uma estimativa de esforço para implementar a história de usuário. Não se baseia em horas, mas sim na complexidade da tarefa. Usamos a sequência de Fibonacci (1, 2, 3, 5, 8, 13...) para dar as estimativas.
+  
 
----
 
 | ID | História de Usuário | Critérios de aceitação | Prioridade | RF/RNF relacionado (link para visualizar) | Story Points |
 | :--- | :--- | :--- | :--- | :--- | :--- |
