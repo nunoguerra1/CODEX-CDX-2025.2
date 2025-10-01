@@ -8,8 +8,7 @@ Nesta seção, apresentamos os protótipos de média fidelidade das telas do sis
 
 # Protótipos de Tela de alta fidelidade - Projeto Sistema Biblio
 
-A seguir apresentamos as imagens das principais telas e interfaces do nosso projeto, que foram criadas com Figma com alta fidelização.
-Clique no Link para visualização do protótipo de cada tela.
+A seguir apresentamos as imagens das principais telas e interfaces do nosso projeto, que foram criadas com alta fidelização - etapa final para entrega ao usuário. Clique no Link para visualização do protótipo de cada tela.
 
 ## Interfaces do Usuário Comum
 
