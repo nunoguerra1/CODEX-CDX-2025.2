@@ -102,12 +102,12 @@ A Tabela a seguir contém:
 
 ---
 
-# Inspeção dos Requisitos do nosso Projeto - Realizado pelo time ScrumMasters
+# Inspeção dos Requisitos do Projeto Codex/Biblio - Realizado pelo time ScrumMasters
 
 Nesta seção, O grupo revisor ScrumMasters analisou os Requisitos Funcionais, Não Funcionais e Histórias de Usuários aplicando o checklist para identificação das classes de
 problemas/inconsistências. Inspeção preenchida pelo time revisor pode ser visualizada no documento “Inspeção dos Requisitos_Defeitos Encontrados.doc”. Link abaixo:
 
-* [Link: Clique aqui para visualizar o documento]( )
+* [Link: Clique aqui para visualizar o documento](Requisitos de Usuário/Inspeção dos Requisitos_Defeitos Encontrados (CODEX).pdf)
 
 ---
 
