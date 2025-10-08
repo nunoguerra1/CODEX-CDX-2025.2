@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Biblio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/home.js" defer></script>
+  </head>
+  <body>
+    <div class="container-home">
+      <header>
+        <a href="home.html"
+          ><p class="logo"><b>Biblio</b></p></a
+        >
+        <nav>
+          <ul class="nav-links">
+            <li><a href="progress.html">Atualizar progresso</a></li>
+            <li><a href="mybooks.html">Meus livros</a></li>
+            <li><a href="profile.html">Meu perfil</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class="search-title">Procure um livro</h1>
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-box"
+          placeholder="Busque por título, autor..."
+        />
+        <span class="search-icon">
+          <svg
+            class="search-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+      </div>
+
+      <div class="book-list" id="list-output"></div>
+    </div>
+  </body>
+</html>
