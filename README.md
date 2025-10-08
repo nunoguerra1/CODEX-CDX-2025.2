@@ -54,3 +54,5 @@ Esta seção é dedicada à documentação detalhada dos requisitos do projeto B
   <li><a href="Requisitos de Usuário/RNF.md">Requisitos Não Funcionais</a></li>
   <li><a href="Requisitos de Usuário/HistoriasUsuario.md">Histórias de Usuários</a></li>
 </ul>
+
+[Biblio](https://nunoguerra1.github.io/CODEX-CDX-2025.2/biblio-site/)
