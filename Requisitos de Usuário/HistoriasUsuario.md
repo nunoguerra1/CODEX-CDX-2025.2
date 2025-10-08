@@ -12,7 +12,7 @@
 
 A Tabela a seguir contém as Histórias de Usuários do projeto Biblio, com os Critérios de Aceitação, Prioridade e o esforço estimado pelo time Codex, utilizando a técnica de Planning Poker. O esforço é representado em Story Points.
 
-| ID | História de Usuário | Critérios de aceitação | Prioridade | RF/RNF relacionado (link para visualizar) | Story Points |
+| ID | História de Usuário | Critérios de aceitação | Prioridade | RF/RNF relacionado (link para visualizar) | Story Points (Fibonacci) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | HU01 | Como um **estudante do UTFPR**, eu quero **me cadastrar na plataforma**, para que eu possa **ter acesso às funcionalidades de gerenciamento de livros**. | 1. O sistema deve validar o formato de e-mail.<br>2. A senha deve ter no mínimo 6 caracteres.<br>3. O sistema deve exibir uma mensagem de sucesso após o cadastro. | Alta | [RF01](RF.md#RF01), [RNF06](RNF.md#RNF06) | **8** |
 | HU02 | Como um **estudante do UTFPR**, eu quero **pesquisar um livro**, para que eu possa **encontrar uma obra de meu interesse rapidamente**. | 1. A busca deve funcionar por título e autor.<br>2. A página de resultados deve exibir capa, título e autor dos livros.<br>3. O sistema deve retornar os resultados em menos de 2 segundos. | Alta | [RF06](RF.md#RF06), [RNF02](RNF.md#RNF02) | **13** |
