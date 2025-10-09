@@ -55,4 +55,12 @@ Esta seção é dedicada à documentação detalhada dos requisitos do projeto B
   <li><a href="Requisitos de Usuário/HistoriasUsuario.md">Histórias de Usuários</a></li>
 </ul>
 
-[Biblio](https://nunoguerra1.github.io/CODEX-CDX-2025.2/biblio-site/)
+---
+
+## Sistema Biblio: Acesso Final (GitHub Pages)
+
+Com a conclusão das etapas de planejamento, modelagem e desenvolvimento, apresentamos o link de acesso para a versão final da plataforma **Biblio**. Este sistema cumpre os **Requisitos Funcionais (RF)** e atende às diretrizes de **Requisitos Não Funcionais (RNF)** e **Histórias de Usuário (HU)** definidas ao longo do projeto.
+
+### **[ACESSAR A PLATAFORMA BIBLIO AQUI (GitHub Pages)](https://nunoguerra1.github.io/CODEX-CDX-2025.2/biblio-site/)**
+
+---
