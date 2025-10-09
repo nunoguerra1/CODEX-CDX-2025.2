@@ -69,49 +69,128 @@ $(document).ready(function () {
     outputList.empty();
     userBooks.forEach((book, index) => {
       const imgSrc = book.img ? book.img : placeholderImg;
-      const stars = "★".repeat(book.rating) + "☆".repeat(5 - book.rating);
+      const authors = Array.isArray(book.authors)
+        ? book.authors.join(", ")
+        : book.authors || "Autor desconhecido";
+      const stars =
+        "★".repeat(Math.max(0, Math.min(5, book.rating || 0))) +
+        "☆".repeat(5 - Math.max(0, Math.min(5, book.rating || 0)));
 
       const card = $(`
-        <div class="card book-card">
-          <img src="${imgSrc}" alt="${book.title}">
-          <div class="card-body">
-            <h5>${book.title}</h5>
-            <p><b>Autor:</b> ${book.authors.join(", ")}</p>
-            <p><b>Avaliação:</b> ${stars}</p>
-            <button class="btn btn-details">Ver detalhes</button>
-            <button class="btn btn-remove">Remover</button>
+        <div class="book-card card">
+          <img src="${imgSrc}" alt="${escapeHtml(book.title)}">
+          <div class="book-info">
+            <h3 class="title">${escapeHtml(book.title)}</h3>
+            <p class="author">${escapeHtml(authors)}</p>
+            <p class="meta"><b>Avaliação:</b> ${stars}</p>
+            <div class="book-actions">
+              <button class="btn btn-details">Detalhes</button>
+              <button class="btn btn-remove">Remover</button>
+            </div>
           </div>
         </div>
       `);
 
       card.find(".btn-details").click(function () {
-        const modalHtml = $(`
-          <div class="book-modal">
-            <div class="modal-content">
-              <span class="close-modal">&times;</span>
-              <img src="${imgSrc}" alt="${book.title}">
-              <h2>${book.title}</h2>
-              <p><b>Autor:</b> ${book.authors.join(", ")}</p>
-              <p><b>Editora:</b> ${book.publisher}</p>
-              <p><b>Lançamento:</b> ${book.publishedDate}</p>
-              <p>${book.description}</p>
-            </div>
-          </div>
-        `);
-        $("body").append(modalHtml);
-        modalHtml.find(".close-modal").click(function () {
-          modalHtml.remove();
-        });
+        openModalForBook(book);
       });
 
       card.find(".btn-remove").click(function () {
         userBooks.splice(index, 1);
         renderBooks();
+        showConfirm("Removido com sucesso");
       });
 
       outputList.append(card);
     });
   }
 
+  function openModalForBook(book) {
+    const imgSrc = book.img ? book.img : placeholderImg;
+    const authors = Array.isArray(book.authors)
+      ? book.authors.join(", ")
+      : book.authors || "Autor desconhecido";
+
+    const modalHtml = $(`
+      <div class="book-modal">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-label="${escapeHtml(
+          book.title
+        )}">
+          <button class="close-modal" aria-label="Fechar">&times;</button>
+          <div class="modal-inner">
+            <img src="${imgSrc}" alt="${escapeHtml(
+      book.title
+    )}" class="img-modal">
+            <div class="modal-details">
+              <h2 class="title">${escapeHtml(book.title)}</h2>
+              <p class="meta"><b>Autor:</b> ${escapeHtml(authors)}</p>
+              <p class="meta"><b>Editora:</b> ${escapeHtml(
+                book.publisher || "—"
+              )}</p>
+              <p class="meta"><b>Lançamento:</b> ${escapeHtml(
+                book.publishedDate || "—"
+              )}</p>
+              <div class="description">${escapeHtml(
+                book.description || "Descrição indisponível"
+              )}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `);
+
+    $("body").append(modalHtml);
+    $("body").addClass("modal-open");
+
+    modalHtml.find(".close-modal").on("click", removeModal);
+    modalHtml.on("click", function (e) {
+      if (e.target === modalHtml[0]) removeModal();
+    });
+    $(document).on("keydown.modalClose", function (e) {
+      if (e.key === "Escape") removeModal();
+    });
+
+    function removeModal() {
+      modalHtml.remove();
+      $("body").removeClass("modal-open");
+      $(document).off("keydown.modalClose");
+    }
+  }
+
+  function showConfirm(message) {
+    const confirmEl = $(
+      `<div class="confirm-modal">${escapeHtml(message)}</div>`
+    );
+    $("body").append(confirmEl);
+    setTimeout(() => {
+      confirmEl.fadeOut(200, function () {
+        $(this).remove();
+      });
+    }, 1400);
+  }
+
+  function escapeHtml(str) {
+    if (!str && str !== 0) return "";
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
   renderBooks();
+
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+
+  navLinks.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+    });
+  });
 });

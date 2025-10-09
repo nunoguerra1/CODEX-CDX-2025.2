@@ -8,26 +8,25 @@
   </head>
   <body>
     <div class="container-home">
-      <header>
+      <header class="header">
         <a href="home.html"
           ><p class="logo"><b>Biblio</b></p></a
         >
+        <div class="hamburger" id="hamburger">&#9776;</div>
         <nav>
           <ul class="nav-links">
             <li><a href="progress.html">Atualizar progresso</a></li>
             <li><a href="mybooks.html">Meus livros</a></li>
-            <li>
-              <a href="profile.html"><b>Meu perfil</b></a>
-            </li>
+            <li><a href="profile.html">Meu perfil</a></li>
           </ul>
         </nav>
       </header>
 
-      <h1>Olá, Usuário</h1>
+      <h1 class="search-title">Olá, Usuário</h1>
 
       <div class="profile-info">
-        <p>Livros lidos em 2025: <b>6</b></p>
-        <p>Páginas totais: <b>1857</b></p>
+        <p>Livros lidos em 2025: <b>0</b></p>
+        <p>Páginas totais: <b>0</b></p>
         <p>Leituras em andamento: <b>0</b></p>
 
         <div class="btn-group">
@@ -36,5 +35,19 @@
         </div>
       </div>
     </div>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+
+      navLinks.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
   </body>
 </html>
