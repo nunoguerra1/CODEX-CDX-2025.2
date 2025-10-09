@@ -25,3 +25,11 @@ A seguir apresentamos as imagens das principais telas e interfaces do nosso proj
 ## Interfaces do Administrador
 
 * [Tela Cadastrar Livro](tela-cadastrar-livro.png) - Formulário para adicionar novos livros ao sistema.
+
+---
+
+## Resultado Final: Acesso ao Sistema Desenvolvido
+
+Após as fases de prototipagem de média e alta fidelidade, disponibilizamos o link para o acesso à **versão final e funcional** do sistema Biblio. Esta é a concretização do design e da arquitetura definidos, atendendo aos requisitos e representando a entrega final do projeto.
+
+### **[ACESSAR O SISTEMA BIBLIO AQUI](COLE_O_LINK_DO_SEU_SITE_AQUI)**
