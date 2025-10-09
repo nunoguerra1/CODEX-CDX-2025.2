@@ -32,4 +32,6 @@ A seguir apresentamos as imagens das principais telas e interfaces do nosso proj
 
 Após as fases de prototipagem de média e alta fidelidade, disponibilizamos o link para o acesso à **versão final e funcional** do sistema Biblio. Esta é a concretização do design e da arquitetura definidos, atendendo aos requisitos e representando a entrega final do projeto.
 
-### **[ACESSAR O SISTEMA BIBLIO AQUI](COLE_O_LINK_DO_SEU_SITE_AQUI)**
+### **[ACESSAR O SISTEMA BIBLIO AQUI](https://nunoguerra1.github.io/CODEX-CDX-2025.2/biblio-site/)**
+
+---
