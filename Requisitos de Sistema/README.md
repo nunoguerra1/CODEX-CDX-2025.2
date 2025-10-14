@@ -22,19 +22,19 @@ Os Diagramas de Atividades (DA) representam o Fluxo de Eventos Normal dos Casos 
 
 ### 2.1. Fluxo: Realizar Login
 
-Descreve o fluxo de sucesso para o usuário se autenticar na plataforma (UC01).
+Descreve o fluxo de sucesso para o usuário se autenticar na plataforma.
 
 ![Diagrama de Atividades - Realizar Login](Diagrama_de_Atividades_Realizar_Login.png)
 
 ### 2.2. Fluxo: Pesquisar Livro
 
-Detalha o processo de busca do usuário, a consulta à API Google Books e a exibição dos resultados (UC02).
+Detalha o processo de busca do usuário, a consulta à API Google Books e a exibição dos resultados.
 
 ![Diagrama de Atividades - Pesquisar Livro](Diagrama_de_Atividades_Pesquisar_Livro.png)
 
 ### 2.3. Fluxo: Atualizar Progresso de Leitura
 
-Descreve as etapas para o usuário registrar o avanço de leitura de um livro, incluindo a validação da página (UC03).
+Descreve as etapas para o usuário registrar o avanço de leitura de um livro, incluindo a validação da página.
 
 ![Diagrama de Atividades - Atualizar Progresso de Leitura](Diagrama_de_Atividade_Progresso_de_Leitura.png)
 
