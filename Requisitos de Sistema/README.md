@@ -1,18 +1,57 @@
-# Requisitos de Sistema - Diagramas UML e DER do Projeto Sistema Biblio
+# Requisitos de Sistema - Modelagem Conceitual (UML)
 
-Os requisitos do sistema foram modelados utilizando a Linguagem de Modelagem Unificada (UML).
+Esta seção contém a modelagem conceitual do sistema Biblio, criada com a ferramenta **Astah UML**, seguindo a estrutura de pacotes: Diagramas de Casos de Uso, Diagramas de Atividades e Diagramas Estruturais.
 
-## Diagrama de Caso de Uso
+O projeto foi atualizado para contemplar todos os requisitos e histórias de usuário definidos.
 
-Representa as funcionalidades do sistema e a interação com um agente externo qualquer (Usuário ou Administrador).
-![Diagrama de Caso de Uso](diagrama-caso-uso.png)
+[**Download do Projeto Astah UML (Biblio_Modelagem_Agil.astah)**](Diagramas_Projeto_Codex_Biblio.asta)
 
-## Diagrama de Classe
+---
 
-Exibe a estrutura do software, com as classes (Usuário, Livro, Estante e Pertence) e suas relações.
-![Diagrama de Classe](diagrama-classe.png)
+## 1. Diagramas de Casos de Uso
 
-## Diagrama de Entidades e Relacionamento
+O Diagrama de Casos de Uso (DCU) apresenta a visão funcional completa, os Atores (incluindo o Ator Generalizado 'Usuário' e a herança) e a rastreabilidade com os Requisitos Funcionais (RF). Os Casos de Uso **Realizar Login**, **Pesquisar Livro** e **Atualizar Progresso de Leitura** contêm a descrição do Fluxo de Eventos Normal e de Exceção detalhada no projeto Astah.
 
-Apresenta a estrutura do banco de dados do sistema, com as tabelas `usuario`, `livro`, `estante` e `pertence`.
-![Diagrama de Entidades e Relacionamento](diagrama-entidades-relacionamento.png)
+![Diagrama de Casos de Uso Refinado](Diagrama_Casos_de_Uso.png)
+
+---
+
+## 2. Diagramas de Atividades
+
+Os Diagramas de Atividades (DA) representam o Fluxo de Eventos Normal dos Casos de Uso mais críticos do sistema, utilizando Partições (Swimlanes) para dividir responsabilidades entre o Usuário e o Sistema.
+
+### 2.1. Fluxo: Realizar Login
+
+Descreve o fluxo de sucesso para o usuário se autenticar na plataforma (UC01).
+
+![Diagrama de Atividades - Realizar Login](Diagrama_de_Atividades_Realizar_Login.png)
+
+### 2.2. Fluxo: Pesquisar Livro
+
+Detalha o processo de busca do usuário, a consulta à API Google Books e a exibição dos resultados (UC02).
+
+![Diagrama de Atividades - Pesquisar Livro](Diagrama_de_Atividades_Pesquisar_Livro.png)
+
+### 2.3. Fluxo: Atualizar Progresso de Leitura
+
+Descreve as etapas para o usuário registrar o avanço de leitura de um livro, incluindo a validação da página (UC03).
+
+![Diagrama de Atividades - Atualizar Progresso de Leitura](Diagrama_de_Atividade_Progresso_de_Leitura.png)
+
+---
+
+## 3. Diagramas Estruturais (Modelagem Estática)
+
+Esta seção apresenta os modelos que definem a estrutura estática e o banco de dados do sistema, complementando a modelagem comportamental.
+
+### 3.1. Diagrama de Classes
+
+Representa as classes principais do sistema (Usuário, Livro, Estante, Pertence) e seus atributos e métodos, demonstrando as relações entre elas.
+
+![Diagrama de Classes](diagrama-classe.png)
+
+### 3.2. Diagrama de Entidades e Relacionamentos (DER)
+
+Representa o modelo de dados utilizado no banco de dados MySQL, com as tabelas e a estrutura de chaves.
+
+![Diagrama de Entidades e Relacionamentos](diagrama-entidades-relacionamento.png)
