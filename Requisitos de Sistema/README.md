@@ -12,7 +12,7 @@ O projeto foi atualizado para contemplar todos os requisitos e histórias de usu
 
 O Diagrama de Casos de Uso (DCU) apresenta a visão funcional completa, os Atores (incluindo o Ator Generalizado 'Usuário' e a herança) e a rastreabilidade com os Requisitos Funcionais (RF). Os Casos de Uso **Realizar Login**, **Pesquisar Livro** e **Atualizar Progresso de Leitura** contêm a descrição do Fluxo de Eventos Normal e de Exceção detalhada no projeto Astah.
 
-![Diagrama de Casos de Uso Refinado](Diagrama_Casos_de_Uso.png)
+![Diagrama de Casos de Uso Refinado](Diagrama_Casos_de_Uso.jpg)
 
 ---
 
