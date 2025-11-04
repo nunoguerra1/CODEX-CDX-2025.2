@@ -107,7 +107,7 @@ A Tabela a seguir contém:
 Nesta seção, O grupo revisor ScrumMasters analisou os Requisitos Funcionais, Não Funcionais e Histórias de Usuários aplicando o checklist para identificação das classes de
 problemas/inconsistências. Inspeção preenchida pelo time revisor pode ser visualizada no documento “Inspeção_Requisitos_Defeitos_Encontrados.pdf”. Link abaixo:
 
-[Link: Clique aqui para visualizar o documento](Requisitos%20de%20Usu%C3%A1rio/Inspecao_Requisitos_Defeitos_Encontrados.pdf)
+[Link: Clique aqui para visualizar o documento](https://github.com/nunoguerra1/CODEX-CDX-2025.2/blob/main/Requisitos%20de%20Usu%C3%A1rio/Inspecao_%20Requisitos_Defeitos_Encontrados.pdf)
 
 ---
 
